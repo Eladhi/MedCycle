@@ -32,7 +32,7 @@ def parse_agrs():
                         help='the path to pkl file with report labels.')
 
     # Data loader settings
-    parser.add_argument('--dataset_name', type=str, default='iu_xray', choices=['iu_xray', 'mimic_cxr'],
+    parser.add_argument('--dataset_name', type=str, default='mimic_cxr', choices=['iu_xray', 'mimic_cxr'],
                         help='the dataset to be used.')
     parser.add_argument('--max_seq_length', type=int, default=100, help='the maximum sequence length of the reports.')
     parser.add_argument('--threshold', type=int, default=10, help='the cut off frequency for the words.')
