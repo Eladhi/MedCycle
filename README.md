@@ -42,14 +42,22 @@ python main.py --ann_path <CSV_PATH> --image_dir <IMAGE_DIR_TRAIN> --image_dir_t
 
 Please consider citing our paper if the project helps your research.
 
-(Currently, only the preprint is available)
-
 ```
-@article{hirsch2024medcycle,
-  title={MedCycle: Unpaired Medical Report Generation via Cycle-Consistency},
-  author={Hirsch, Elad and Dawidowicz, Gefen and Tal, Ayellet},
-  journal={arXiv preprint arXiv:2403.13444},
-  year={2024}
+@inproceedings{hirsch-etal-2024-medcycle,
+    title = "{M}ed{C}ycle: Unpaired Medical Report Generation via Cycle-Consistency",
+    author = "Hirsch, Elad  and
+      Dawidowicz, Gefen  and
+      Tal, Ayellet",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2024",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-naacl.125",
+    pages = "1929--1944",
 }
 ```
 
